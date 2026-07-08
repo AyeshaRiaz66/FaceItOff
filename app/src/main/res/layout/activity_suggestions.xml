@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#E6F1F7">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here’s what might help!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#2D4A68"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="12dp">
+
+            <ImageButton
+                android:id="@+id/btn_apps"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/round_button_bg"
+                android:src="@drawable/ic_app"
+                android:scaleType="centerInside"
+                android:padding="16dp"
+                android:contentDescription="Apps" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apps"
+                android:textSize="14sp"
+                android:textColor="#2D4A68"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="12dp">
+
+            <ImageButton
+                android:id="@+id/btn_music"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/round_button_bg"
+                android:src="@drawable/ic_music"
+                android:scaleType="centerInside"
+                android:padding="16dp"
+                android:contentDescription="Music" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music"
+                android:textSize="14sp"
+                android:textColor="#2D4A68"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="12dp">
+
+            <ImageButton
+                android:id="@+id/btn_activities"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/round_button_bg"
+                android:src="@drawable/ic_activity"
+                android:scaleType="centerInside"
+                android:padding="16dp"
+                android:contentDescription="Activities" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activities"
+                android:textSize="14sp"
+                android:textColor="#2D4A68"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Face it off</string>
+
+    <!-- Google Sign-In Client ID -->
+    <string name="default_web_client_id">
+        544172882878-5o24k7rav815labf8n2p7rtn3a7ctska.apps.googleusercontent.com
+    </string>
+</resources>

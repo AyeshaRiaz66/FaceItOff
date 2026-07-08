@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "544172882878",
+    "project_id": "faceitoff-a6632",
+    "storage_bucket": "faceitoff-a6632.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544172882878:android:ec895cb73ec6accb2397ef",
+        "android_client_info": {
+          "package_name": "com.example.faceitoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544172882878-pdedg64lcvf4s8d0n0mvigprc7clmdqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.faceitoff",
+            "certificate_hash": "70e9793c2ef6c2ce93dcd6255965a143edc19a3e"
+          }
+        },
+        {
+          "client_id": "544172882878-5o24k7rav815labf8n2p7rtn3a7ctska.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJlZR16WahzsKnNPqOUtcHsPklpOb7XJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544172882878-5o24k7rav815labf8n2p7rtn3a7ctska.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
